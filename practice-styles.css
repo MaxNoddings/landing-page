@@ -1,0 +1,13 @@
+body {
+    background-image: url('background-image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+  }
+
+.container 
+{
+    position: relative;
+    z-index: 1;
+}

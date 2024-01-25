@@ -1,0 +1,60 @@
+body
+{
+    background-color: #230158;
+    background-image: url('background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    /*
+    color: white;
+    padding: 50px;
+    */
+}
+
+.my-title
+{
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(270deg, #5F3AA3 37.62%, #FE5A97 71.55%, #FD9C50 103.41%, rgba(71, 244, 255, 0) 103.41%);
+}
+
+.my-sub-title
+{
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(180deg, #ACD8FF 0%, rgba(11, 139, 255, 0) 100%);
+}
+
+.my-statement
+{
+    font-family: 'B612 Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(180deg, #80C2FF -4.95%, #65508C 84.3%);
+}
+
+.links
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+}
+
